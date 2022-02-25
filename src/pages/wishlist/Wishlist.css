@@ -1,0 +1,105 @@
+.wishlist-container {
+  width: 100%;
+
+  margin: 1.5rem 0;
+}
+.wishlist-container .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wishlist-container .top .icon {
+  font-size: 50px;
+  color: #40b566;
+}
+.wishlist-container .top p {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.wishlist-container .below {
+  padding: 20px;
+  width: 100%;
+  /* border: 1px solid gray; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: -2rem;
+}
+.wishlist-container .below .line {
+  width: 100%;
+  height: 2px;
+}
+.wishlist-container .below .item {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  width: 100%;
+  /* flex: 5% 20% 15% 15% 15% 10% 20%; */
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+}
+
+.ones {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  width: 10%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.ones .icon {
+  font-size: 20px;
+  width: 100%;
+  color: rgb(238, 43, 43);
+  cursor: pointer;
+  align-self: flex-end;
+  width: 100%;
+  margin-left: 3rem;
+}
+.wishlist-container .below .item .twos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  width: 200px;
+  height: 150px;
+}
+.wishlist-container .below .item .threes {
+  width: 15% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+.wishlist-container .below .item .fours {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wishlist-container .below .item .fives {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wishlist-container .below .item .sixs {
+  width: 15%;
+  color: #40b566;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wishlist-container .below .item .sevens {
+  width: 20%;
+}

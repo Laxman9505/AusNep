@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gideon Roman", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+body {
+  color: #4a5f80 !important;
+}
+.rec-carousel-item {
+  min-width: 170px !important;
+  padding: 0rem !important;
+
+  margin: 0 !important;
+  overflow: hidden;
+}
+.sc-gsDKAQ {
+  width: 130px !important;
+  height: 120px !important;
+}

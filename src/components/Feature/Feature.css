@@ -1,0 +1,23 @@
+.container {
+  width: 30%;
+  height: 91px;
+  display: flex;
+  gap: 1rem;
+}
+.second-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.second-container span {
+  color: #40b566;
+  font-size: 18px;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,43 @@
+.animated-button {
+  border: none;
+  /* border: 1px solid #40b566; */
+  padding: 9px 20px;
+
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 14px !important;
+  background: none;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  background-color: #1ccaaa;
+}
+.animated-button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  z-index: 1;
+}
+
+.animated-button::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #40b566;
+  transition: all 0.3s ease-in-out;
+}
+.animated-button:hover {
+  color: white !important;
+  border: none;
+}
+.animated-button:hover::after {
+  width: 100%;
+}
